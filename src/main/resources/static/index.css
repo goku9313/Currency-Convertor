@@ -1,0 +1,45 @@
+#mainDiv{
+	background-color:grey;
+	width:50%;
+	border: 2px solid white;
+	border-radius: 1%;
+	margin-bottom:20px;
+	opacity:0.95;
+}
+
+#headerDiv{
+	background-color:black;
+	width:50%;
+	color:white;
+	border: 2px solid silver;
+	border-radius: 1%;
+	padding: 3px;
+	margin:2px;
+	opacity:0.85;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+@media(max-width: 720px) {
+    body {
+        background-image: linear-gradient(white,grey, black);
+    }   
+   	#headerDiv{
+	min-width: 270px;
+}
+	#mainDiv{
+		min-width: 270px;
+	}
+}
+
+@media (min-width: 721px) {
+    body {
+	    background-image: url('bg_image.jpg');
+	    max-height: 200px;
+   }
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>CurrExchan</title>
+  </head>
+  <body>
+	<br>
+	<br>
+	<div align="center">
+	<div id="headerDiv">
+    <h2 align="center" background-color="black">Currency Convertor</h2>
+	</div>
+	</div>
+	<br>
+	<form>
+    <div align="center">
+	    <div class="d-flex align-items-center flex-column" id="mainDiv">
+	    <br>
+	        <div class="form-group col-md-4">
+	            <label for="fromCurr"><strong>Currency From</strong></label>
+	            <select id="fromCurr" class="form-control">
+	                <option selected>USD</option>
+	                <option>INR</option>
+	                <option>EUR</option>
+					<option>AUD</option>
+					<option>CAN</option>
+					<option>GBP</option>
+					<option>SGD</option>
+					<option>JPY</option>
+					<option>CNY</option>
+	            </select>
+	          </div>
+	          <div class="form-group col-md-4">
+	            <input type="number" class="form-control" id="amount1" placeholder="Amount"  name="amt1">
+	          </div>
+	          <div class="form-group col-md-4">
+	            <label for="targetCurr"><strong>Currency To</strong></label>
+	            <select id="targetCurr" class="form-control">
+	                <option selected>INR</option>
+	                <option>USD</option>
+	                <option>EUR</option>
+					<option>AUD</option>
+					<option>CAN</option>
+					<option>GBP</option>
+					<option>SGD</option>
+					<option>JPY</option>
+					<option>CNY</option>
+	            </select>
+	          </div>
+	          <div class="form-group col-md-4">
+	          <h4></h4>
+	            <input type="number" class="form-control" id="amount2" placeholder="Amount" name="amt2">
+	          </div>
+	          <div>
+	          <button type="button" class="btn btn-primary" id="button1">Convert!</button>
+	          </div>
+	          <br>
+	    </div>
+    </div>
+    </form>
+	
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  	<script src="index.js"></script>
+  	
+  	
+  	
+  </body>
+</html>
+
